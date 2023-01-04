@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+
+*{
+  margin: 0;
+}
+
+body {
+  background-image:url("../img/back.jpg");
+  background-size: cover;
+  font-family: 'Quicksand';
+  max-width: 850px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.corpo-site{
+  background-color: #fafbfc;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.cabecalho{
+  background-color: #1a262c;
+  padding: 12px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+footer {
+  background-color: #1a262c;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.cabecalho {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.texto-site{
+  padding-top: 15px;
+  font-size: 13px;
+  text-align: left;
+  color:#4242429f;
+}
+
+footer {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.nome{
+  padding: 20px;
+  margin-top: -12px;
+  margin-bottom: 25px;
+  font-size: 19px;
+  color: #424242;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  resize: none;
+  text-align: center;
+}
+
+.titulos-input{
+  text-align:left;
+}
+
+.campos_input {
+  display: grid;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input,
+select {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  outline: 0;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+select:hover, input:hover{
+  background-color: #1a262c0a;
+  border-color: #fff;
+}
+
+.button_salvar {
+  width: 25%;
+  cursor: pointer;
+  background: #1a262c;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Quicksand';
+  border: 1px solid #fff;
+  transition: all 0.2s linear;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.button_limpar {
+  width: 25%;
+  cursor: pointer;
+  background: rgb(61, 175, 109);
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Quicksand';
+  border: 1px solid #fff;
+  transition: all 0.2s linear;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.button_salvar:hover {
+  background: #1a262cb2;
+  color: #fff;
+  border: 1px outset #33365f1a;
+}
+
+.button_limpar:hover {
+  background: rgba(61, 175, 109, 0.719);
+  color: #fff;
+  border: 1px outset rgba(61, 175, 109, 0.582);
+}
+
+.titulo-vagas{
+  background-color:#1a262c;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  border-bottom-right-radius: solid #1a262c;
+  width: 100%;
+}
+
+table th {
+  background-color: #1a262c;
+  padding: 5px;
+  color: #fff;
+  font-size: 15px;
+}
+
+table td {
+  padding: 3px 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+table tr:hover {
+  background-color: #1a262cb2;
+  color: #fff;
+}
