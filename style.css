@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image:url("../img/back.jpg");
+  background-image:url("./img/back.jpg");
   background-size: cover;
   font-family: 'Quicksand';
   max-width: 850px;
