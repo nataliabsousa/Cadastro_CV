@@ -9,6 +9,15 @@ function enviar() {
   alert(`Obrigado sr(a) ${nome}, seu currículo foi enviado. Boa sorte!`);
 }
 
+function limpar() {
+  document.getElementById("nome").value = null;
+  document.getElementById("cpf").value = null;
+  document.getElementById("telefone").value = null;
+  document.getElementById("data").value = null;
+  document.getElementById("email").value = null;
+  document.getElementById("formacao").value = "null";
+}
+
 function validarDados() {
   var nome = document.getElementById("nome").value;
   var telefone = document.getElementById("telefone").value;
@@ -25,17 +34,8 @@ function validarDados() {
   ) {
     alert("Preencha os campos obrigatórios.");
   } else {
-    enviar();
+    enviar(), limpar();
   }
-}
-
-function limpar() {
-  document.getElementById("nome").value = null;
-  document.getElementById("cpf").value = null;
-  document.getElementById("telefone").value = null;
-  document.getElementById("data").value = null;
-  document.getElementById("email").value = null;
-  document.getElementById("formacao").value = "null";
 }
 
 function mCPF(e) {
